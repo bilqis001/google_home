@@ -79,6 +79,18 @@ border-color: #f1f2f5;
     transform: translate(-50%, -50%)
   }
 
+  .search_icon{
+    height: 18px;
+    position:relative;
+    bottom: 5px;
+    position: absolute;
+    top: 32%;
+    left: 3%;
+    margin-right: -50%;
+    padding-left: 20;
+    scroll-padding-block-start: 2px;
+  }
+
   #feeling-lucky{
     display: block;
     position: absolute;
