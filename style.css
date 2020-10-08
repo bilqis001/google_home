@@ -1,0 +1,101 @@
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.grid{
+  height:23px;
+  position:relative;
+  bottom:4px;
+}
+
+.signbutton{
+  background-color: #427de2;
+  color: #fff;
+  border:none;
+  border-radius:3px;
+  padding:7px 10px;
+  position:relative;
+  bottom:7px;
+  font-weight:bold;
+}
+
+li{
+  display: inline;
+  float: right;
+}
+
+li a {
+  color: #000;
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size:14px;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+#navbar {
+  float: right;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: auto;
+}
+
+#google-image{
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+
+#searchbar{
+border-color: #f1f2f5;
+  text-align: left;
+  border: 1px solid rgb(196, 191, 191);
+  border-radius: 40px;
+  width: 545px;
+  height: 40px;
+  outline: none;
+   }
+
+   #searchbar:hover{
+    box-shadow: 1px 1px 6px 1px #dcdcdc;
+  }
+
+  .search-position{
+    display: block;
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  #feeling-lucky{
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  #lucky-button{
+   color: rgb(119, 117, 117);
+   border: none;
+  border-radius:4px;
+  outline: none;
+  padding: 10px 10px;
+  background-color: rgb(240, 241, 243);
+  font-size: 15px;
+  }
+  
+</style>
