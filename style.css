@@ -69,6 +69,7 @@ border-color: #f1f2f5;
   height: 40px;
   outline: none;
   font-size: 20px;
+  text-indent: 2.5rem;
    }
 
    #searchbar:hover{
@@ -130,6 +131,39 @@ border-color: #f1f2f5;
   font-size: 15px;
   }
 
- 
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    max-width: 1900px;
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+
+#footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  padding: .5rem 0 0 0;
+  background: rgb(242, 242, 242);
+  }
+
+
+.footer-right {
+  display: flex;
+  float: right;
+  margin: .5rem 1.5rem 1rem;
+}
+
+
+.footer-left {
+  display: flex;
+  float: left;
+  margin: .5rem 1.5rem 1rem;
+}
   
 </style>
