@@ -127,43 +127,38 @@ border-color: #f1f2f5;
   border-radius:4px;
   outline: none;
   padding: 10px 10px;
-  background-color: rgb(240, 241, 243);
+  background-color:#f2f2f2;
   font-size: 15px;
   }
 
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    max-width: 1900px;
-    text-align: center;
-    background-color: #f2f2f2;
-    padding: 10px;
-}
-
-
-#footer-wrapper {
-  position: fixed;
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #f2f2f2;
   bottom: 0;
+  position: fixed;
   width: 100%;
-  height: auto;
-  padding: .5rem 0 0 0;
-  background: rgb(242, 242, 242);
-  }
+  max-width: 1900px;
+  color: rgb(119, 117, 117);
+  text-decoration: none;
+  font-size: 16px;
+}
 
 
 .footer-right {
-  display: flex;
-  float: right;
-  margin: .5rem 1.5rem 1rem;
-}
+  position: fixed;
+  bottom: 0;
+  right: 20px;
+ margin-right: 16px;
 
+}
 
 .footer-left {
-  display: flex;
-  float: left;
-  margin: .5rem 1.5rem 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 0px;
 }
+  
   
 </style>
